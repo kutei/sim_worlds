@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>sim_worlds</name>
+    <version>0.0.1</version>
+    <description>The sim_worlds package</description>
+    <maintainer email="todo@sample.com">kutei</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <exec_depend>gazebo_ros</exec_depend>
+
+    <export>
+        <gazebo_ros gazebo_media_path="${prefix}/worlds" />
+        <gazebo_ros gazebo_model_path="${prefix}/models" />
+    </export>
+</package>
